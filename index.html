@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es" data-mode="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" id="theme-color" content="#f6f2fd">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Hábitos">
+  <meta name="application-name" content="Hábitos">
+  <meta name="description" content="Tu espacio tranquilo para construir hábitos, ver tu progreso y guardar lo más importante de cada día.">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <title>Hábitos</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="bg" aria-hidden="true"></div>
+  <main id="app">
+    <div id="view">
+      <div id="splash"><div class="splash-e">🌿</div></div>
+    </div>
+  </main>
+  <button id="fab" type="button" aria-label="Nuevo hábito" hidden>
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M5 12h14M12 5v14"/></svg>
+  </button>
+  <nav id="nav" aria-label="Secciones"></nav>
+  <div id="layer"></div>
+  <noscript>Esta app necesita JavaScript.</noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

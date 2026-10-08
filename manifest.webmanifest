@@ -1,0 +1,17 @@
+{
+  "name": "Hábitos",
+  "short_name": "Hábitos",
+  "description": "Tu espacio tranquilo para construir hábitos, ver tu progreso y guardar lo más importante de cada día.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f2fd",
+  "theme_color": "#f6f2fd",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
